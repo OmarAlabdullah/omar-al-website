@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/file.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+</head>
+
+<body onload="initializeApp()">
+<div class="contact-c" id="Contact">78\4
+  57\
+  54
+  <!--<h1 class="title">Contact Us</h1>-->
+  <h2 class="title"><b>We'd love to hear from you!</b></h2>
+  <div class="wrapper animated bounceInLeft">
+    <div class="contact">
+      <h3 class="contact-us" style="text-align: center"><b>Contact Us</b></h3>
+      <div class="alert">Your message has been sent!</div>
+      <form id="contactForm" method="post">
+        <p class="name-field">
+          <label>Name <span>*</span></label>
+          <input type="text" name="name" id="name" required>
+        </p>
+        <p class="company-field">
+          <label>Company</label>
+          <input type="text" name="company" id="company">
+        </p>
+        <p class="email-field">
+          <label>Email <span>*</span></label>
+          <input id="email" name="email" required type="email">
+        </p>
+        <p class="phone-field">
+          <label>Phone</label>
+          <input type="text" name="phone" id="phone">
+        </p>
+        <p class="message-field full">
+          <label>Message <span>*</span></label>
+          <textarea name="message" rows="5" id="message" required></textarea>
+        </p>
+        <p class="required-field">Required field <span>*</span></p>
+        <p class="submit-button">
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+
